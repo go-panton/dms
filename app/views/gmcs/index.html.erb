@@ -1,0 +1,18 @@
+<h1>Gmc Index</h1>
+<p>Path: app/views/gmcs/index.html.erb</p>
+
+
+<div class="gmc index">
+	<h2>GMC Workspaces</h2>
+
+	<table class="listing" summary="Gmc list">
+		<tr class="header">
+			<th>Workspaces</th>
+		</tr>
+		<% @workspaces.each do |nameofworkspace| %>
+		<tr>
+			<td><%=nameofworkspace%></td>
+		</tr>
+		<% end %>
+	</table>
+</div>

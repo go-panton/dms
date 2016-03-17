@@ -1,0 +1,15 @@
+<div class="gmc index">
+	<h2>GMCs</h2>
+
+	<table class="listing" summary="Gmc list">
+		<tr class="header">
+			<th>&nbsp;</th>
+			<th>Users</th>
+		</tr>
+		<% @subjects.each do |subject| %>
+		<tr>
+			<td><%= gmc.ausername %></td>
+		</tr>
+		<% end %>
+	</table>
+</div>
